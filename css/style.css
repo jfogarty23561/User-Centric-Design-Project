@@ -1,0 +1,41 @@
+.container {
+    background-color: #baa2a0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    ;
+}
+
+.carousel-caption p {
+    color: #000;
+    text-shadow: -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
+.row .img-fluid {
+    width: 300px;
+}
+
+.carousel .item img {
+    height: 50%;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
