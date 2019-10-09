@@ -2,6 +2,15 @@
     background-color: #baa2a0;
 }
 
+.video-grid{
+    background-color: #d92564;
+}
+
+.video-grid .col-sm-4{
+    background-color: #d92564;
+    color:#fff;
+}
+
 .carousel-inner img {
     width: 100%;
     /* Set width to 100% */
@@ -27,10 +36,6 @@
 
 .row .img-fluid {
     width: 300px;
-}
-
-.carousel .item img {
-    height: 50%;
 }
 
 @media (max-width: 600px) {
