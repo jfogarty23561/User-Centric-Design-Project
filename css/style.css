@@ -1,14 +1,10 @@
 .container {
-    background-color: #baa2a0;
+    width: 100%;
+    background-color: #000;
 }
 
-.video-grid{
-    background-color: #d92564;
-}
-
-.video-grid .col-sm-4{
-    background-color: #d92564;
-    color:#fff;
+.video-grid {
+    background-color: #2e3136;
 }
 
 .carousel-inner img {
@@ -43,4 +39,14 @@
         display: none;
         /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+
+    .item {
+        height: 300px;
+        max-height: 300px;
+    }
+}
+
+.footer-copyright
+{
+    background-color: #141414;
 }
