@@ -19,6 +19,36 @@
 
 <body>
 
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/TOFGt.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#photo">PHOTOS</a></li>
+                    <li><a href="#message">MESSAGE</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
+          </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#links">LINKS</a></li>
+                            <li><a href="#videos">VIDEOS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -29,8 +59,8 @@
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="images/repofplayers.jpg" alt="New York">
+            <div class="item active" id="photo">
+                <img src="images/repofplayers.jpg" alt="Rep Crew">
                 <div class="carousel-caption">
                     <h3>TABLE QUIZ WIN WITH THE REPUBLIC OF PLAYERS</h3>
                     <p>We are too good, love this crew!</p>
@@ -38,7 +68,7 @@
             </div>
 
             <div class="item">
-                <img src="images/convention.jpg" alt="Chicago">
+                <img src="images/convention.jpg" alt="Selfie">
                 <div class="carousel-caption">
                     <h3>DUBLIN MINI GAMES CON</h3>
                     <p>Had a great time, loved every minute of it!</p>
@@ -46,7 +76,7 @@
             </div>
 
             <div class="item">
-                <img src="images/johnr.jpg" alt="Los Angeles">
+                <img src="images/johnr.jpg" alt="John Romero">
                 <div class="carousel-caption">
                     <h3>MEETING JOHN ROMERO</h3>
                     <p>A hero of mine, I was positively "Quakeing" in my boots!</p>
@@ -66,31 +96,35 @@
     </div>
 
     <!--adding some centered text -->
-    <div class="containerr">
-        <h3 class="text-center">TOOOLD4GAMING</h3>
-        <p class="text-center"><em>You Are Never Too Old To Game!</em></p>
-        <p class="text-center">Check out my content from all accross the Web</p>
+    <div class="grid-info" id="message">
+        <h1 class="text-center"><u>TOOOLD4GAMING</u></h1>
+        <h3 class="text-center"><em>You Are Never Too Old To Game!</em></h3>
+        <p class="text-center">Hello, and welcome to my website. My name is John Fogarty, and online I am known as TooOld4Gaming. Now...I know I am only in my early 30's, but I do not genuinely think I am too old to be playing video games. It is more of a joke, or satire, about
+            the people who you will meet in your life that believe that gaming is just for kids and teens. As gamers, we know this is not the case!</p>
+        <br>
+        <p class="text-center">So why not join me in all my Video Game related content on a multitude of platforms, and make sure you like, follow, comment and subscribe to me as we prove together that in gaming, your only as young as you feel!</p>
+        </p>
 
         <br>
 
         <!-- creating 6 and 6 grid and adding images with links -->
         <div class="row">
-            <div class="col-sm-6 text-center">
-                <p><strong>Name</strong></p><br>
+            <div class="col-sm-6 text-center" id="links">
+                <h3><strong>CLICK FOR YOUTUBE</strong></h3><br>
                 <a href="https://www.youtube.com/channel/UCAhMKe8evkPRJ2U84R7__iA">
-                <img class="img-fluid" src="images/youtube.png" alt="Youtube" >
+                <img class="img-fluid img-circle" src="images/youtube.jpg" alt="Youtube" >
             </a>
             </div>
             <div class="col-sm-6  text-center">
-                <p><strong>Name</strong></p><br>
+                <h3><strong>CLICK FOR TWITCH</strong></h3><br>
                 <a href="https://www.twitch.tv/tooold4gaming">
-            <img class="img-fluid" src="images/twitch.png" alt="Twitch">
+            <img class="img-fluid img-circle" src="images/twitch.jpg" alt="Twitch">
             </a>
             </div>
         </div>
     </div>
 
-    <div class="video-grid">
+    <div class="container-fluid" id="videos">
         <h3 class="text-center">RECENT YOUTUBE VIDEOS</h3>
         </h3>
         <div class="col-sm-4 text-center">
@@ -107,12 +141,14 @@
         </div>
     </div>
 
-        <footer><!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
-            <a href="www.tooold4gaming.ie"> tooold4gaming.ie</a>
+    <footer>
+        <div class="container-footer">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="www.tooold4gaming.ie"> tooold4gaming.ie</a>
+            </div>
+            <!-- Copyright -->
         </div>
-        <!-- Copyright -->
-
     </footer>
     <!-- Footer -->
 

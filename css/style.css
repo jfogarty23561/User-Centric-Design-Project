@@ -1,10 +1,68 @@
-.container {
-    width: 100%;
-    background-color: #000;
+.grid-info {
+    border: solid 1px #fff;
+    zoom: 1;
+    /* IE6&7 */
+    padding-bottom: 15px;
+    background-color: #ed7f7b;
+
 }
 
-.video-grid {
+.navbar .navbar-brand img {
+    height: 15px;
+    transform: scale(3);
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #ed7f7b !important;
+}
+
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+
+.grid-info h1 {
+    font-family: verdana;
+    color: #fa0800;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.grid-info h3 {
+
+    font-family: cursive;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.grid-info p {
+    color: #fff;
+    font-family: fantasy;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+
+
+}
+
+.container-fluid {
     background-color: #2e3136;
+    color: #fff;
 }
 
 .carousel-inner img {
@@ -40,13 +98,10 @@
         /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 
-    .item {
-        height: 300px;
-        max-height: 300px;
-    }
 }
 
-.footer-copyright
-{
+.footer-copyright {
     background-color: #141414;
+    color: white;
+    position: relative;
 }
