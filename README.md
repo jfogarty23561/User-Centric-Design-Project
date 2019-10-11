@@ -63,4 +63,4 @@ Media
 
 Acknowledgements
 I received inspiration for this project from https://www.w3schools.com/bootstrap/bootstrap_theme_band.asp and https://code-institute-solutions.github.io/StudentExampleProjectGradeThree/ for page design
-I also did use w3schools for just bits and bobs when figuring out how things worked, and stack overflow when asking very specific questions.
+I also did use w3schools for just bits and bobs when figuring out how things worked, and stack overflow when asking very specific questions.  
