@@ -1,41 +1,56 @@
+/*setting the basic rulkes for page*/
+html,
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/*rules for the grid section with links and message*/
 .grid-info {
     border: solid 1px #fff;
-    zoom: 1;
-    /* IE6&7 */
     padding-bottom: 15px;
-    background-color: #ed7f7b;
+    background-color: #b02f2a;
+    width: 100%;
 
 }
 
+/*navbar logo to get it to fit proper in the corner*/
 .navbar .navbar-brand img {
     height: 15px;
     transform: scale(3);
 }
 
-.navbar li a, .navbar .navbar-brand {
+/*change colour of the nav text*/
+.navbar li a,
+.navbar .navbar-brand {
     color: #fff !important;
 }
 
+/*change dropdown menu hover and text colors*/
 .dropdown-menu li a {
-  color: #000 !important;
+    color: #000 !important;
 }
 
 .dropdown-menu li a:hover {
-  background-color: #ed7f7b !important;
+    background-color: #ed7f7b !important;
 }
 
 .open .dropdown-toggle {
-  color: #fff ;
-  background-color: #555 !important;
+    color: #fff;
+    background-color: #555 !important;
 }
 
+/*changing p h1 and h3 for message section and links*/
 .grid-info h1 {
-    font-family: verdana;
+    font-family: fantasy;
     color: #fa0800;
     text-shadow: -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    padding-bottom: 15px;
 }
 
 .grid-info h3 {
@@ -49,26 +64,52 @@
 }
 
 .grid-info p {
+    padding: 10px;
     color: #fff;
+    font-family: verdana;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+
+
+}
+
+/*changing color and text for both navbar and video section*/
+.container-fluid {
+    background-color: #2e3136;
+    color: #fff;
+    
+}
+
+.container-fluid h3
+{
     font-family: fantasy;
     text-shadow: -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-    
-
-
 }
 
-.container-fluid {
-    background-color: #2e3136;
-    color: #fff;
+
+/*formatting twitch player and heading*/
+.twitch-section {
+    background-color: #ed7f7b;
+    border: solid 1px #fff;
 }
 
+.twitch-section h3 {
+    font-family: fantasy;
+    color: white;
+    padding: 30px;
+}
+
+/*carousel image sizes and h3, p formatting*/
 .carousel-inner img {
     width: 100%;
-    /* Set width to 100% */
     margin: auto;
+    padding-top: 50px;
 }
 
 .carousel-caption h3 {
@@ -80,6 +121,7 @@
     ;
 }
 
+
 .carousel-caption p {
     color: #000;
     text-shadow: -1px -1px 0 #fff,
@@ -88,8 +130,10 @@
     1px 1px 0 #fff;
 }
 
+/*sorting sizes for link images*/
 .row .img-fluid {
     width: 300px;
+    padding: 30px;
 }
 
 @media (max-width: 600px) {
@@ -97,11 +141,30 @@
         display: none;
         /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+    
+    .grid-info p {
+    
+        display: none;
+        /* Hide the message text when the screen is less than 600 pixels wide */
+    }
+    
 
 }
 
+/* sorting a video issue I was having with resizing and overlapping, it worked but maybe not best solution*/
+.container-fluid iframe {
+    width: 100%;
+    height: 250px;
+}
+
+
+/*footer settings */
 .footer-copyright {
     background-color: #141414;
     color: white;
     position: relative;
+}
+
+.container-fluid h3 {
+    padding: 30px;
 }
